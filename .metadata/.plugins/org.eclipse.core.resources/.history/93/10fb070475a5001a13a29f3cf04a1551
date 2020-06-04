@@ -1,0 +1,9 @@
+@Configuration
+public class QuartzConfig {
+
+    @Bean
+    public JobDetail jobDetail1(){
+        return JobBuilder.newJob(QuartzJob1.class).storeDurably().build();
+    }
+    
+}

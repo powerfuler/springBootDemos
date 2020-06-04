@@ -1,0 +1,24 @@
+package com.quartz;
+
+import org.springframework.scheduling.quartz.QuartzJobBean;
+
+public class MyJob extends QuartzJobBean {
+    @Override
+    public void execute(JobExecutionContext jobExecutionContext) throws JobExecutionException {
+        System.out.println("========quartz 测试==========");
+    }
+    
+    @Autowired
+    private UserService userService;
+
+    @Override
+    public void execute(JobExecutionContext jobExecutionContext) throws JobExecutionException {
+        this.userService.save();
+    }
+    
+    @Override
+    protected void executeInternal(JobExecutionContext jobExecutionContext) throws JobExecutionException {
+        LOGGER.info("start CommunityStatisticalTerm auto statistic task......");
+        LOGGER.info("finish CommunityStatisticalTerm auto statistic task......");
+    }
+}

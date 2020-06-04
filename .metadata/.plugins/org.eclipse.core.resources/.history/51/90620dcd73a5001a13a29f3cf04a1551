@@ -1,0 +1,20 @@
+package com;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.scheduling.quartz.CronTriggerFactoryBean;
+import org.springframework.scheduling.quartz.SchedulerFactoryBean;
+
+import com.quartz.CustomAdaptableJobFactory;
+
+@Configuration
+public class WebSocketConfig {
+	
+	@Bean
+	public SchedulerFactoryBean schedulerFactoryBean(CronTriggerFactoryBean cronTriggerFactory,CustomAdaptableJobFactory customAdaptableJobFactory){
+	    SchedulerFactoryBean factory = new SchedulerFactoryBean();
+	    factory.setTriggers(cronTriggerFactory.getObject());
+	    factory.setJobFactory(customAdaptableJobFactory);
+	    return factory;
+	}
+}

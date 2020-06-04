@@ -1,0 +1,13 @@
+spring.application.name=spirng-boot-mail
+
+
+mail.fromMail.addr=1173260643@qq.com
+
+# javamail 配置
+spring.mail.host=smtp.qq.com
+spring.mail.username=1173260643@qq.com
+spring.mail.password=ding11732
+spring.mail.properties.mail.smtp.auth=true
+spring.mail.properties.mail.smtp.starttls.enable=true
+spring.mail.properties.mail.smtp.starttls.required=true
+spring.mail.default-encoding=UTF-8

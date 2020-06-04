@@ -1,0 +1,6 @@
+content-types/org.eclipse.core.runtime.text/charset=utf-8
+content-types/org.eclipse.jdt.core.javaProperties/charset=utf-8
+content-types/org.eclipse.jdt.core.javaProperties/file-extensions=yml
+content-types/org.eclipse.jdt.core.javaSource/charset=utf-8
+content-types/org.eclipse.wst.html.core.htmlsource/file-names=hello.ftl
+eclipse.preferences.version=1

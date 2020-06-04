@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;RabbitMQApplication.java&apos; to &apos;springBoot15-mq/src/main/java/com.neo&apos;&#x0D;&#x0A;- Original project: &apos;springBoot15-mq&apos;&#x0D;&#x0A;- Destination element: &apos;springBoot15-mq/src/main/java/com.neo&apos;&#x0D;&#x0A;- Original element: &apos;com.neo.RabbitMQApplication.java&apos;" description="Copy compilation unit" destination="/src\/main\/java&lt;com.neo" element1="/src\/main\/java&lt;com.neo{RabbitMQApplication.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1591253130401" units="1" version="1.0"/>
+</session>

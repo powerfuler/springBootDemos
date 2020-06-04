@@ -1,0 +1,8 @@
+package com.demo3.web;
+
+public class Snippet {
+	public static void main(String[] args) {
+		Thymeleaf
+	}
+}
+

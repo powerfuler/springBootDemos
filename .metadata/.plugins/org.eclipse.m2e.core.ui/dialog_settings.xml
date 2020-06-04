@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="E:\workspace\SpringBootGitHubDemo\SpringBootDemos\dockercompose-springboot-mysql-nginx"/>
+			<item value="E:\workspace\SpringBootGitHubDemo\SpringBootDemos\springBoot23-admin-simple\springBoot23-admin-server"/>
+			<item value="E:\workspace\SpringBootGitHubDemo\SpringBootDemos\springBoot23-admin-simple\springBoot23-admin-client"/>
+			<item value="E:\workspace\SpringBootGitHubDemo\SpringBootDemos\springBoot23-admin-simple"/>
+			<item value="E:\workspace\SpringBootGitHubDemo\SpringBootDemos\springBoot22-actuator"/>
+			<item value="E:\workspace\SpringBootGitHubDemo\SpringBootDemos\springBoot10-jpa-thymeleaf-curd"/>
+			<item value="E:\workspace\SpringBootGitHubDemo\SpringBootDemos\springBoot10-jpa"/>
+			<item value="E:\workspace\SpringBootGitHubDemo\SpringBootDemos\spring-boot-elasticsearch"/>
+			<item value="E:\workspace\SpringBootGitHubDemo\SpringBootDemos\spring-boot-swagger"/>
+			<item value="E:\workspace\SpringBootGitHubDemo\SpringBootDemos\springBoot9-banner"/>
+			<item value="E:\workspace\SpringBootGitHubDemo\SpringBootDemos\springBoot14-mongodb"/>
+			<item value="E:\workspace\SpringBootGitHubDemo\SpringBootDemos\springBoot13-nosql"/>
+			<item value="E:\workspace\SpringBootGitHubDemo\SpringBootDemos\springBoot12-druid"/>
+			<item value="E:\workspace\SpringBootGitHubDemo\SpringBootDemos\springBoot12-mysql"/>
+			<item value="E:\workspace\SpringBootGitHubDemo\SpringBootDemos\springBoot11-mybatis-plus"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item value="All Catalogs" key="catalog"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="E:\workspace\SpringBootGitHubDemo\SpringBootDemos\springBoot5-web-thymeleaf"/>
+			<item value="E:\workspace\SpringBootGitHubDemo\SpringBootDemos\springBoot5-web-freemarker\resource"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

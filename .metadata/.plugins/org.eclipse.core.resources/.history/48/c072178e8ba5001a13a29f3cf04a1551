@@ -1,0 +1,16 @@
+package com.neo.model;
+@Entity
+public class Role implements Serializable{
+
+    private static final long serialVersionUID = 3926276668667517847L;
+
+    @Id
+    @GeneratedValue
+    private Integer id;
+    
+    @Column
+    private String name;
+    
+    @Column
+    private String descr;
+}

@@ -1,0 +1,5 @@
+package com.mongoDB;
+public interface DepartmentRepository extends MongoRepository<Department, Integer> {
+
+
+}

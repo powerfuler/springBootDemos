@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1564898660315_0" label="spring-boot-examples" name="spring-boot-examples">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/springBoot18-docker" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/springBoot19-fastDFS" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/springBoot20-package" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/springBoot2-hello" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/springBoot16-file-upload" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/springBoot26-memcache-spymemcached" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/springBoot3-web" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/springBoot25-commandLineRunner" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/springBoot4-webflux" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/springBoot21-package-war" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/springBoot1-helloWorld" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/springBoot5-web-thymeleaf" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/springBoot6-mail" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/springBoot15-mq" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/springBoot24-shiro" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/springBoot7-scheduled" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/springBoot8-swagger2" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/springBoot13-nosql" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/springBoot12-druid" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/springBoot9-banner" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/springBoot17-elasticsearch" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/springBoot10-Jpa" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/springBoot10-multi-Jpa" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/springBoot10-jpa-thymeleaf-curd" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1591266510102_3" label="spring-boot-admin-simple" name="spring-boot-admin-simple">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/springBoot23-admin-simple" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/spring-boot-admin-client" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/spring-boot-admin-server" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1591267523628_4" label="dockercompose-springboot-mysql-nginx" name="dockercompose-springboot-mysql-nginx">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/springBoot-dockercompose-mysql-nginx" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1590739359863_1" label="Window Working Set" name="Aggregate for window 1590739359863"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1591154454114_2" label="Window Working Set" name="Aggregate for window 1591154454114"/>
+</workingSetManager>

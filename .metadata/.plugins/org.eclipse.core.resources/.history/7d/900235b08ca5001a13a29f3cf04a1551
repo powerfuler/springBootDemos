@@ -1,0 +1,11 @@
+package com.neo.model;
+public class Department implements Serializable{
+
+    private static final long serialVersionUID = 6067283535977178571L;
+
+    private Integer id;
+    
+    private String name;
+    
+    private String descr;
+}

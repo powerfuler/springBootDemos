@@ -1,0 +1,47 @@
+@Component
+@EnableConfigurationProperties(MailProperties.class)
+public class JavaMailComponent {
+	
+	private static final String template = "mail.ftl";
+
+	@Autowired
+	private FreeMarkerConfigurer freeMarkerConfigurer;
+	
+	@Autowired
+    private JavaMailSender javaMailSender;
+
+	@Autowired
+	private MailProperties mailProperties;
+
+	public void sendMail(String email) {
+		Map<String, Object> map = new HashMap<String, Object>();
+		map.put("email", email);
+		try {
+			// 获取内容
+			String text = this.getTextByTemplate(template, map);
+			// 发送
+			this.send(email, text);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	private String getTextByTemplate(String template, Map<String, Object> model) throws Exception {
+		return FreeMarkerTemplateUtils
+				.processTemplateIntoString(this.freeMarkerConfigurer.getConfiguration().getTemplate(template), model);
+	}
+
+	private String send(String email, String text) throws MessagingException, UnsupportedEncodingException {
+		MimeMessage message = this.javaMailSender.createMimeMessage();
+		MimeMessageHelper helper = new MimeMessageHelper(message, true, "UTF-8");
+		InternetAddress from = new InternetAddress();
+		from.setAddress(this.mailProperties.getUsername());
+		from.setPersonal("月光中的污点", "UTF-8");
+		helper.setFrom(from);
+		helper.setTo(email);
+		helper.setSubject("SpringBoot 发送的第一封邮件");
+		helper.setText(text, true);
+		this.javaMailSender.send(message);
+		return text;
+	}
+}

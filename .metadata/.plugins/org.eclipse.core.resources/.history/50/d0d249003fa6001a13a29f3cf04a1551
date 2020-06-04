@@ -1,0 +1,21 @@
+@RunWith(SpringRunner.class)
+@SpringBootTest
+public class JmsTest {
+
+  @Autowired
+  private JmsSender sender;
+
+  @Test
+  public void testSendByQueue() {
+    for (int i = 1; i < 6; i++) {
+      this.sender.sendByQueue("hello activemq queue " + i);
+    }
+  }
+
+  @Test
+  public void testSendByTopic() {
+    for (int i = 1; i < 6; i++) {
+      this.sender.sendByTopic("hello activemq topic " + i);
+    }
+  }
+}

@@ -1,0 +1,5 @@
+# SpringBoot 配置文件有两种，（.properties，。yml）都可以配置数据库、端口、服务器名称等信息
+# 这里配置端口 8091
+
+#端口号设置
+server.port=8093

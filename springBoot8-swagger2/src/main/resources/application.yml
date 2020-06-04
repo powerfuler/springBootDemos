@@ -1,0 +1,9 @@
+server:
+  port: 8091
+spring:
+  http:
+    encoding:
+      charset: UTF-8
+      
+com.neo.title: Web综合开发
+com.neo.description: springBoot的Web综合开发测试用例

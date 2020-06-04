@@ -1,0 +1,5 @@
+package com.quartz;
+
+public interface UserService {
+
+}

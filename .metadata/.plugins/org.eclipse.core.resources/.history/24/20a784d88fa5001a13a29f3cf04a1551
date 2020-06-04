@@ -1,0 +1,20 @@
+@Configuration
+public class DruidConfiguration {
+
+    @ConfigurationProperties(prefix = "spring.datasource.druid")
+    @Bean(initMethod = "init",destroyMethod = "close")
+    public DruidDataSource dataSource() {
+        DruidDataSource ds = new DruidDataSource();
+        ds.setProxyFilters(Arrays.asList(statFilter()));
+        return ds;
+    }
+
+    @Bean
+    public Filter statFilter() {
+        StatFilter filter = new StatFilter();
+        filter.setSlowSqlMillis(5000);
+        filter.setLogSlowSql(true);
+        filter.setMergeSql(true);
+        return filter;
+    }
+}

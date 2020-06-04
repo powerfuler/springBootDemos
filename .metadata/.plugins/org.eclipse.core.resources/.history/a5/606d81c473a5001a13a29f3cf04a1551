@@ -1,0 +1,33 @@
+package com.scheduled;
+
+import java.util.Date;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.scheduling.annotation.Scheduled;
+import org.springframework.scheduling.quartz.CronTriggerFactoryBean;
+import org.springframework.scheduling.quartz.SchedulerFactoryBean;
+import org.springframework.stereotype.Component;
+
+import com.quartz.CustomAdaptableJobFactory;
+/**
+ * 
+ * @author dingjianmin
+ *Scheduled 方式
+ * 任务类
+ */
+@Component
+public class Schedule {
+
+	@Scheduled(fixedRate = 2000)
+	public void task() {
+		System.out.println("启动定时任务:" + new Date());
+	}
+	
+	@Bean
+	public SchedulerFactoryBean schedulerFactoryBean(CronTriggerFactoryBean cronTriggerFactory,CustomAdaptableJobFactory customAdaptableJobFactory){
+	    SchedulerFactoryBean factory = new SchedulerFactoryBean();
+	    factory.setTriggers(cronTriggerFactory.getObject());
+	    factory.setJobFactory(customAdaptableJobFactory);
+	    return factory;
+	}
+}

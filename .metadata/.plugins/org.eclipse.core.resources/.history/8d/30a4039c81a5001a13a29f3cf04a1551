@@ -1,0 +1,18 @@
+package com;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+/**
+ * 
+ * @author dingjianmin
+ *Spring Boot 的启动类上添加 @EnableScheduling 后，启动项目即可。定时任务启动
+ */
+@SpringBootApplication
+public class Swagger2Application {
+
+	public static void main(String[] args) {
+		SpringApplication.run(Swagger2Application.class, args);
+	}
+
+}

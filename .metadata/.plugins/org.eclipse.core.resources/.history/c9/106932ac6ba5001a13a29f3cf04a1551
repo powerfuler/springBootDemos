@@ -1,0 +1,21 @@
+spring.thymeleaf.cache=false
+
+spring.freemarker.allow-request-override=false
+spring.freemarker.cache=true
+spring.freemarker.check-template-location=true
+spring.freemarker.charset=UTF-8
+spring.freemarker.content-type=text/html
+spring.freemarker.expose-request-attributes=false
+spring.freemarker.expose-session-attributes=false
+spring.freemarker.expose-spring-macro-helpers=false
+spring.freemarker.prefix=
+spring.freemarker.suffix=.ftl
+
+
+# javamail 配置
+spring.mail.host=smtp.qq.com
+spring.mail.username=1173260643@qq.com
+spring.mail.password=
+spring.mail.properties.mail.smtp.auth=true
+spring.mail.properties.mail.smtp.starttls.enable=true
+spring.mail.properties.mail.smtp.starttls.required=true
